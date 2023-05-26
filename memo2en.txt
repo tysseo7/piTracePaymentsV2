@@ -1,0 +1,39 @@
+It's not related to KYC, but I give you a serious report and I would like to resieve your opinion.
+
+I found the hacking address and its owner.
+
+Hacked Address: Address (GC3Z)
+GC3ZUA5QA6E4GWF5SMK2IWRDTWPFAO3QFXUWT3MH6PQAN3PUJW22UHSA
+Owner
+https://www.facebook.com/groups/167279820097576/user/100075564843988/
+
+
+=================
+Details below.
+
+In March, an acquaintance's ƒÎ was stolen on the mainnet. When I googled the stolen address (GDS7), many people were stolen.
+
+Approximately 14,000 addresses were extracted by tracing the destination address of a large amount of remittance (remittance of 500ƒÎ or more) from the address (GDS7) using a self-made program. I found an address (GC3Z) that was similarly hacked from among these. (Pick up the ones with the most remittances within 60 seconds and the balance is small. Batch processing and deposit, external address)
+
+I happened to find the owner's Facebook account. When I asked him without mentioning the details of the hacking, he replied that (GC3Z) was his own address.
+
+https://www.facebook.com/groups/167279820097576/user/100075564843988/
+
+Any suggestions on what action should be taken against this facebook account?
+
+Address (GDS7)
+GDS73TBQ5L2KX2D7EWMY43O4NB3RZXE4XFTH6SBRZK3QZJCB2L63GQHU
+
+Address (GC3Z)
+GC3ZUA5QA6E4GWF5SMK2IWRDTWPFAO3QFXUWT3MH6PQAN3PUJW22UHSA
+
+
+**Program and Results
+https://github.com/tysseo7/piTracePaymentsV2/tree/master
+
+* Trace program and results
+piTracePayments.py
+gcp-to_0516_ath490.csv
+
+*All transactions for address (GC3Z)
+countSpamScore-GC3Z.csv

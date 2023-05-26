@@ -1,0 +1,39 @@
+
+KYCとは関係ありませんが、重大な報告をさせていただき、ご意見を伺いたいと思います。
+
+ハッキングアドレスとその所有者を見つけました。
+
+ハッキングされたアドレス: アドレス (GC3Z)
+GC3ZUA5QA6E4GWF5SMK2IWRDTWPFAO3QFXUWT3MH6PQAN3PUJW22UHSA
+持ち主
+https://www.facebook.com/groups/167279820097576/user/100075564843988/
+
+
+
+詳細は以下をご覧ください。
+3 月に、知人の π がメインネット上で盗まれました。 盗まれたアドレス（GDS7）をググってみると、たくさんの人が盗まれていました。
+
+自作プログラムを用いてアドレス（GDS7）から大量送金（500π以上の送金）の宛先アドレスを追跡し、約14,000件のアドレスを抽出しました。 この中から同様にハッキングされたアドレス（GC3Z）を発見しました。 （60秒以内に送金件数が多く、残高が少ないものをピックアップ。一括処理して入金、外部アドレス）
+
+偶然オーナーのFacebookアカウントを見つけました。 ハッキングの詳細には触れずに尋ねると、（GC3Z）は自分のアドレスだと答えた。
+
+https://www.facebook.com/groups/167279820097576/user/100075564843988/
+
+この Facebook アカウントに対してどのような措置を講じるべきかについて何か提案はありますか?
+
+アドレス (GDS7)
+GDS73TBQ5L2KX2D7EWMY43O4NB3RZXE4XFTH6SBRZK3QZJCB2L63GQHU
+
+アドレス(GC3Z)
+GC3ZUA5QA6E4GWF5SMK2IWRDTWPFAO3QFXUWT3MH6PQAN3PUJW22UHSA
+
+
+**プログラムと結果
+https://github.com/tysseo7/piTracePaymentsV2/tree/master
+
+* トレースプログラムと結果
+piTracePayments.py
+gcp-to_0516_ath490.csv
+
+*アドレス（GC3Z）のすべてのトランザクション
+countSpamScore-GC3Z.csv
